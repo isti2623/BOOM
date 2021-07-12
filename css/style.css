@@ -262,4 +262,44 @@ font-size: 50px;
 
 
 
-  
+  /********** Form Section *******/
+  @media screen and (max-width: 600px) {
+
+/* First Section */
+.top-banner{
+    background-size: 100%;
+}
+.logo-part{
+    padding-left: 50px;
+}
+.icon-part{
+ display: block;
+
+}
+.menu-part{
+display: block;
+
+}
+.text-part{
+    padding-left: 50px;
+}
+
+/* Second Section  */
+.part-two{
+    text-align: left;
+}
+.card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    place-items: center;
+}
+
+
+    /* form section*/
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+  }
+
