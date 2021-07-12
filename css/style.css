@@ -220,4 +220,39 @@ input[type=text], select, textarea {
 background-color: #363737;
 height: 220px;
   }
+
+  .ruels{
+   display: flex;
+   justify-content: center;
+  }
+
+.fa-facebook{
+color: gray;
+padding: 50px;
+font-size: 50px;
+  }
+.fa-facebook:hover{
+    color: #4472b8;
+   
+      }
+    
+
+
+.fa-instagram-square{
+    color: gray;
+padding: 50px;
+font-size: 50px;
+}
+.fa-instagram-square:hover{
+   color:#af3192;
+}
+
+.fa-linkedin{
+    color: gray;
+    padding: 50px;
+    font-size: 50px;
+}
+.fa-linkedin:hover{
+    color: #4472b8;
+}
   
