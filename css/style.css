@@ -17,7 +17,7 @@ body{
 }
 .top-nav-bar{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center
 }
 .logo{
@@ -269,15 +269,21 @@ font-size: 50px;
 .top-banner{
     background-size: 100%;
 }
+.top-nav-bar{
+    display: block;
+    text-align: center;
+}
 .logo-part{
     padding-left: 50px;
 }
 .icon-part{
- display: block;
+ display: grid;
+ grid-template-columns: repeat(1,1fr);
 
 }
 .menu-part{
-display: block;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
 
 }
 .text-part{
